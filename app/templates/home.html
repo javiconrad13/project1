@@ -3,7 +3,24 @@
 
 {% block js %}
 {% endblock %}
-
+<!doctype html>
+<html>
+<head>
+<title> This is a form</title>
+</head>
+<body>
+<form action="." method="get">
+<label>You name
+<input name="name" type="text" autofocus placeholder="enter your name" />
+</label>
+<br />
+<label>You age
+<input name="age" type="text" placeholder="enter your age" />
+</label>
+<input type="submit" />
+</form>
+</body>
+</html>
 
 {% block main %}
 {% endblock %}
